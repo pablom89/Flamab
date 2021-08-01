@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comandas",
+  "info": {
+    "name": "comandas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CLIENTE": {
+      "type": "string",
+      "required": true,
+      "maxLength": 500
+    },
+    "EXTRA": {
+      "type": "string"
+    },
+    "TOP": {
+      "type": "text",
+      "maxLength": 1000
+    }
+  }
+}
